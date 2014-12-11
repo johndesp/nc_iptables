@@ -1,0 +1,5 @@
+[nc_rrit]
+host=emeril.frictionless.capital.nc_.com
+port=29418
+project=nc__iptables
+defaultbranch=master

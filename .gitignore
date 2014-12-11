@@ -1,0 +1,15 @@
+.vagrant
+Berksfile.lock
+#nc_mfile.lock
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+.bundle
+.cache
+.kitchen
+bin
+.kitchen.local.yml
+tmp/

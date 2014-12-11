@@ -1,0 +1,14 @@
+---
+driver_plugin: vagrant
+platforms:
+- name: nc_-rhel63-x86-64
+  driver_config:
+    box: nc_-rhel63-x86-64
+    box_url: http://3.166.220.28/virtualbox/nc_-rhel63-x86-64.box
+    http_proxy: <%= ENV['http_proxy'] %>
+    https_proxy: <%= ENV['https_proxy'] %>s
+suites:
+- name: default
+  run_list:
+  - recipe[nc_iptables]
+  attributes: {}
